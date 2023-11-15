@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="css/setting.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        ul {
+            list-style-type: none; 
+            padding: 0; 
+            margin: 0; 
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="myresume.html">My Resume</a></li>
+                <li><a href="movies.html">Movies</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>My Resume</h1>
+    <section>
+        <h2>Contact:</h2>
+        <p>Amina Karabek</p>
+        <p>10 W 35th St., Chicago, IL 60616</p>
+        <p>akarabek@hawk.iit.edu</p>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <p>
+            <strong>Lane Tech High School,</strong>
+        </p>
+        <p>Class of 2023</p>
+        <p>
+            <strong>Illinois Institute of Technology,</strong> IL
+        </p>
+        <p>Class of 2027</p>
+        <p>
+            <strong>MCC Sunday School,</strong>
+        </p>
+        <p>8 years, (graduated 2021)</p>
+    </section>
+    <section id="achievement">
+        <h2>Accomplishments:</h2>
+        <ul>
+            <li>1st Place Speech Contest, MCC (6th grade)</li>
+            <li>1st Place History Fair Contest Winner (6th grade, 7th grade)</li>
+            <li>Lane Tech International Days French Club Assistant (11th grade)</li>
+            <li>CME (Chicago Mercantile Exchange) Group Presentation STEM Award (11th grade)</li>
+            <li>Lane Tech Writing Center Assistant (12th grade)</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p> Made by: Amina Karabek</p>
+        <address>
+            <a href="mailto:akarabek@hawk.iit.edu">akarabek@hawk.iit.edu</a>
+        </address>
+    </footer>
+</body>
+</html>
