@@ -66,3 +66,18 @@
     </footer>
 </body>
 </html>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const sections = document.querySelectorAll('section');
+
+    sections.forEach(section => {
+      const header = section.querySelector('h2');
+      header.style.cursor = 'pointer';
+      header.addEventListener('click', () => {
+        const content = section.querySelectorAll('p, ul');
+        content.forEach(item => item.style.display = item.style.display === 'none' ? 'block' : 'none');
+      });
+    });
+  });
+</script>
+
