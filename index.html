@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="css/setting.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="myresume.html">My Resume</a></li>
+          <li><a href="movies.html">Movies</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Welcome Page</h1>
+    <h2>Tell me about yourself</h2>
+    <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+      <fieldset>
+        <legend>Information about you:</legend>
+        <div><label>First Name: <input size="100" type="text" name="first_name_field"></label></div>
+        <div><label>Last Name: <input size="100" type="text" name="last_name_field"></label></div>
+        <div><label>Email: <input size="100" type="text" name="phone_field"></label></div>
+        <div><label>Phone #: <input size="100" type="text" name="email_field"></label></div>
+        <div>Gender: </div>
+        <div>
+          <label>Male <input type="radio" name="gender_field" value="male"></label>
+          <label>Female <input type="radio" name="gender_field" value="female"></label>
+        </div>
+        <div>Age: </div>
+        <select name="age_field">
+            <option>under 18</option>
+            <option>18-25</option>
+            <option>25-50</option>
+            <option>50-60</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label>What did you think of the website? </label>
+        <div>
+          <textarea name="comments_field"></textarea>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
