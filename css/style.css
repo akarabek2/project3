@@ -105,4 +105,30 @@ section {
   margin-bottom: 20px;
   margin-top: 30px;
 }
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    let body = document.body;
+    let colors = ['#C4C3FF', '#EAE8FF'];
+    let currentColor = 0;
 
+    setInterval(() => {
+        body.style.background = `repeating-linear-gradient(90deg, ${colors[currentColor]}, ${colors[currentColor]} 20px, ${colors[1 - currentColor]} 0, ${colors[1 - currentColor]} 40px)`;
+        currentColor = 1 - currentColor;
+    }, 3000); // changes color every 3 seconds
+});
+document.addEventListener('DOMContentLoaded', function() {
+    let navLinks = document.querySelectorAll('nav ul li a');
+
+    navLinks.forEach(link => {
+        link.addEventListener('mouseover', () => {
+            link.style.backgroundColor = '#A0C4FF';
+            link.style.color = '#fff';
+        });
+
+        link.addEventListener('mouseout', () => {
+            link.style.backgroundColor = '';
+            link.style.color = '#000';
+        });
+    });
+});
+</script>
