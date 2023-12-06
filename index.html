@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="css/setting.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  </head>
+
+    <style>
+        /* Media Query for screens smaller than 600px */
+        @media screen and (max-width: 600px) {
+            body {
+                font-size: 16px; 
+            }
+
+            header nav ul {
+                padding: 0;
+                text-align: center; 
+            }
+
+            header nav ul li {
+                display: block;
+                margin: 5px 0;
+            }
+
+            form {
+                width: 100%; 
+                padding: 10px;
+            }
+
+            form input[type="text"], form textarea, form select {
+                width: 100%; 
+                box-sizing: border-box; 
+            }
+
+            form fieldset {
+                border: none; 
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+</html>
+
   <body>
     <header>
       <nav>
