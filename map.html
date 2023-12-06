@@ -9,14 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Young+Serif&display=swap" rel="stylesheet">
     <script async src="js/js.js"></script>
     <link rel="stylesheet" href="css/setting.css">
-    <script async defer
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189747.86275625814!2d-87.84219484192442!3d42.0043454083196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c72d3e9a80f%3A0x91cbe4661afb6f1a!2sIllinois%20Institute%20of%20Technology!5e0!3m2!1sen!2sus!4v1701827529384!5m2!1sen!2sus" 
-      width="600" 
-      height="450" 
-      style="border:0;"
-      allowfullscreen="" 
-      loading="lazy" 
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- Corrected the script tag -->
+    <script async defer></script>
   </head>
   <body>
     <header>
@@ -32,7 +26,16 @@
     <div id="main">
       <h1>Illinois Institute of Technology</h1>
       <hr class="spacing">
-      <div id="map"></div>
+      <!-- Moved the iframe into the body -->
+      <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189747.86275625814!2d-87.84219484192442!3d42.0043454083196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c72d3e9a80f%3A0x91cbe4661afb6f1a!2sIllinois%20Institute%20of%20Technology!5e0!3m2!1sen!2sus!4v1701827529384!5m2!1sen!2sus" 
+        width="600" 
+        height="450" 
+        style="border:0;"
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
       <p>Address: 10 W 35th St, Chicago, IL 60616</p>
       <p>Contact: (312) 567-3000</p>
       <p>Offices</p>
@@ -53,3 +56,4 @@
     </footer>
   </body>
 </html>
+
