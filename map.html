@@ -1,34 +1,27 @@
 <!DOCTYPE html>
-<html class="mapbody" lang="en">
-<head>
-  <meta charset="UTF-8">
+<html lang="en">
+  <head>
     <title>Map</title>
-  <link rel="stylesheet" type="text/css" href="css/setting.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" type="text/css" href="css/normalize.css"> 
-  <link rel="stylesheet" href="css/style.css"> 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1lJekyxiztYI3OSdqU_bbVs5lDricbTQ&calledback=initMap"></script> 
-  <script defer src="js/myjs.js"></script>
-</head>
-<body class="mapbody">
-<nav id="main-navbar">
-  <div id="navbar-container">
-    <ul>
-      <li><a href="index.html">Homepage</a></li>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQ360PfNq8Xdo-Ov0NJ80qkXbBNxP8BZ0&callback=initMap"></script>
+  </head>
+
+  <body>
+    <div id="navbar"> <!--Navigation div-->
+      <ul>
+         <li><a href="index.html">Homepage</a></li>
           <li><a href="myresume.html">My Resume</a></li>
           <li><a href="movies.html">Movies</a></li>
-	  <li><a href="map.html">Map</a></li>
-    </ul>
-  </div>
-</nav>
-<h1 id="maptitle">My Map</h1>
-<div id="wrapper">
-  <div id="canvas"></div>
-</div>
-</body>
+          <li><a href="map.html">Map</a></li>
+      </ul>
+    </div>
+    <div id="sec-map">  <!--Map Wrapper div-->
+      <div id="map"></div>
+    </div>
+     
+  </body>
+</html>
